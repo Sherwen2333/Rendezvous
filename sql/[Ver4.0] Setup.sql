@@ -1,0 +1,173 @@
+
+DROP TABLE IF EXISTS REFERAL CASCADE;
+DROP TABLE IF EXISTS SUGGESTBY CASCADE;
+DROP TABLE IF EXISTS DATEDATA CASCADE;
+DROP TABLE IF EXISTS PHOTOS CASCADE;
+DROP TABLE IF EXISTS LIKES CASCADE;
+
+DROP TABLE IF EXISTS PROFILE CASCADE;
+DROP TABLE IF EXISTS MANAGER CASCADE;
+DROP TABLE IF EXISTS EMPLOYEE CASCADE;
+DROP TABLE IF EXISTS CUSTOMER CASCADE;
+DROP TABLE IF EXISTS GEODATEINFO CASCADE;
+DROP TABLE IF EXISTS MESSAGE CASCADE;
+
+CREATE TABLE CUSTOMER (
+	Id					VARCHAR(24)				NOT NULL,		-- User ID
+    Password	VARCHAR(24)				NOT NULL,		-- Password
+	Last				VARCHAR(20)				NOT NULL,		-- Last Name
+    First				VARCHAR(20)				NOT NULL,		-- First Name
+    Addr			VARCHAR(50)				NOT NULL,
+    City				VARCHAR(20)				NOT NULL,
+    State			VARCHAR(20)				NOT NULL,
+    Zip				VARCHAR(5)					NOT NULL,
+    Tele				BIGINT							DEFAULT NULL,
+    Email			VARCHAR(50)				NOT NULL,
+    AccNum		BIGINT UNSIGNED		NOT NULL 		AUTO_INCREMENT,		#Account Number
+    ACD			TIMESTAMP					NOT NULL		DEFAULT CURRENT_TIMESTAMP,		#Account Creation Date
+    CCN			BIGINT UNSIGNED		NOT NULL,		#Credit Card Number
+    PPP				VARCHAR(1)					DEFAULT 'C' 	,
+    UNIQUE KEY (Id),
+    PRIMARY KEY     (AccNum, Id)
+);
+
+CREATE TABLE MESSAGE (
+	invitee 					VARCHAR(24)				NOT NULL,		-- User ID
+    inviter				VARCHAR(24)				NOT NULL,		-- User ID
+    addr				VARCHAR(50)             NOT NULL,
+    City				VARCHAR(20)				NOT NULL,
+    State			VARCHAR(20)				NOT NULL,
+    time TIMESTAMP NOT NULL,
+    PRIMARY KEY (invitee, inviter)
+);
+
+CREATE TABLE EMPLOYEE (
+	SSN				VARCHAR(9)	 				NOT NULL,
+	Password	VARCHAR(24)				NOT NULL,		-- Password
+	Last				VARCHAR(20)				NOT NULL,		# Last Name
+    First				VARCHAR(20)				NOT NULL,		# First Name
+    Addr			VARCHAR(50)				NOT NULL,		
+    City				VARCHAR(20)				NOT NULL,
+    State			VARCHAR(20)				NOT NULL,
+    Zip				VARCHAR(5)					NOT NULL,
+    Tele				BIGINT UNSIGNED		DEFAULT NULL,
+    Email			VARCHAR(50)				NOT NULL,
+    Start			TIMESTAMP					NOT NULL			DEFAULT CURRENT_TIMESTAMP,		#Start Date
+    HRate			DOUBLE UNSIGNED		NOT NULL,		#Hourly Rate
+    PRIMARY KEY     (SSN)
+);
+
+CREATE TABLE MANAGER (
+	SSN				VARCHAR(9)	 				NOT NULL,
+	Password	VARCHAR(24)				NOT NULL,		-- Password
+	Last				VARCHAR(20)				NOT NULL,		-- Last Name
+    First				VARCHAR(20)				NOT NULL,		-- First Name
+    Addr			VARCHAR(50)				NOT NULL,		
+    City				VARCHAR(20)				NOT NULL,
+    State			VARCHAR(20)				NOT NULL,
+    Zip				VARCHAR(5)					NOT NULL,
+    Tele				BIGINT UNSIGNED		DEFAULT NULL,
+    Email			VARCHAR(50)				NOT NULL,
+    Start			TIMESTAMP					NOT NULL			DEFAULT CURRENT_TIMESTAMP,		-- Start Date
+    HRate			DOUBLE UNSIGNED		NOT NULL,			-- Hourly Rate
+    PRIMARY KEY     (SSN)
+);
+
+CREATE TABLE PROFILE (
+	Id 		 			VARCHAR(24)		 		NOT NULL   	,  #Unique ID for the profile 
+	Name 	 			VARCHAR(20), 
+	Age   	 			INT UNSIGNED		 		NOT NULL 		,
+    Addr     			VARCHAR(50) 				NOT NULL 		,   # specific location
+    City     				VARCHAR(20) 				NOT NULL   	, 
+	State   				VARCHAR(20) 				NOT NULL		,
+	Gender   			VARCHAR(6)  				NOT NULL 		,
+    Height   			DOUBLE							,     # unit is meter
+    Weight   			DOUBLE							,     # unit is kg
+    HColor   			VARCHAR(20),
+    Hobby    			VARCHAR(100),
+	GeoRange 		DOUBLE UNSIGNED 	NOT NULL 		DEFAULT 1,
+    AgeMin   			INT UNSIGNED 		 		NOT NULL		DEFAULT 0,
+    AgeMax   		INT UNSIGNED 				NOT NULL		DEFAULT 0,
+    CreateDate		TIMESTAMP					NOT NULL		,
+    LastActive		TIMESTAMP					NOT NULL		DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    TotalRate			DOUBLE UNSIGNED     NOT NULL    	DEFAULT 0.0,		-- Avg Rate
+	NumPDate		INT UNSIGNED        		NOT NULL    	DEFAULT 0,		-- Number of pending dates
+    NumCDate		INT UNSIGNED        		NOT NULL    	DEFAULT 0,		-- Number of completed dates
+	TotalFee			DOUBLE UNSIGNED     NOT NULL    	DEFAULT 0.0,
+    PPP					VARCHAR(1)					NOT NULL 		,
+    CId					VARCHAR(24)				NOT NULL		,		-- Customer ID
+    IP  		VARCHAR(15),   
+    latitude 	 double,
+    longitude    double,
+    PRIMARY  KEY(Id),
+    FOREIGN KEY(CId) 	REFERENCES CUSTOMER(Id) 	ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+CREATE TABLE PHOTOS (
+	Id 		VARCHAR(24)		 			NOT NULL,
+    URL		VARCHAR(255) 			 		NOT NULL,
+    
+    PRIMARY KEY(Id,URL),
+    FOREIGN KEY(Id) REFERENCES PROFILE(Id) ON DELETE CASCADE ON UPDATE CASCADE
+);    
+
+CREATE TABLE LIKES (
+	LikerId 		VARCHAR(24)		 		 NOT NULL,
+    LikeeId 		VARCHAR(24)		 		 NOT NULL,
+    DateTime 	TIMESTAMP			 		 DEFAULT CURRENT_TIMESTAMP,
+    
+    CHECK(LikerId <> LikeeId),      # liker and likee cannot be the same.
+    PRIMARY KEY(LikerId, LikeeId, DateTime),
+    FOREIGN KEY(LikerId) REFERENCES PROFILE(Id) ON DELETE CASCADE ON UPDATE CASCADE,
+    FOREIGN KEY(LikeeId) REFERENCES PROFILE(Id) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+CREATE TABLE DATEDATA (
+	DateId				BIGINT UNSIGNED			AUTO_INCREMENT,
+    UserAId			VARCHAR(24)					,
+    UserBId			VARCHAR(24)					,
+    DateTime		TIMESTAMP						NOT NULL			DEFAULT CURRENT_TIMESTAMP,
+    GeoLoc			VARCHAR(100)					,
+    ZipCode			VARCHAR(5)						,
+    Fee					DOUBLE UNSIGNED			NOT NULL			DEFAULT 0.00	,
+    RepId				VARCHAR(9)						,
+    CommentA		VARCHAR(250)					,	-- Written by User A
+    CommentB		VARCHAR(250)					,	-- Written by User B
+    RateA				DOUBLE	UNSIGNED			NOT NULL			DEFAULT 0	,	-- Written by User A assigned to B
+    RateB				DOUBLE	UNSIGNED			NOT NULL			DEFAULT 0	,	-- Written by User B assigned to A
+    
+    PRIMARY KEY (DateId), 
+    
+    FOREIGN KEY(UserAId) REFERENCES PROFILE(Id) ON DELETE SET NULL ON UPDATE CASCADE,
+    FOREIGN KEY(UserBId) REFERENCES PROFILE(Id) ON DELETE SET NULL ON UPDATE CASCADE,
+    FOREIGN KEY(RepId) REFERENCES EMPLOYEE(SSN) ON DELETE SET NULL ON UPDATE CASCADE
+);
+
+CREATE TABLE REFERAL (
+	Id						BIGINT UNSIGNED			AUTO_INCREMENT,
+	UserA 				VARCHAR(24)					,
+    UserB 				VARCHAR(24)					,
+    UserC 				VARCHAR(24)					,
+    DateTime		TIMESTAMP						NOT NULL			DEFAULT CURRENT_TIMESTAMP,
+    
+    PRIMARY KEY (Id),
+    FOREIGN KEY(UserA) REFERENCES PROFILE(Id) ON DELETE SET NULL ON UPDATE CASCADE,
+    FOREIGN KEY(UserB) REFERENCES PROFILE(Id) ON DELETE SET NULL ON UPDATE CASCADE,
+    FOREIGN KEY(UserC) REFERENCES PROFILE(Id) ON DELETE SET NULL ON UPDATE CASCADE
+);
+
+CREATE TABLE SUGGESTBY (
+	Id						BIGINT UNSIGNED			AUTO_INCREMENT,
+	RepId 				VARCHAR(9)						,
+    UserB 				VARCHAR(24)					,
+    UserC 				VARCHAR(24)					,
+    DateTime		TIMESTAMP						NOT NULL			DEFAULT CURRENT_TIMESTAMP,
+    
+    PRIMARY KEY (Id),
+    FOREIGN KEY(RepId) REFERENCES EMPLOYEE(SSN) ON DELETE SET NULL ON UPDATE CASCADE,
+    FOREIGN KEY(UserB) REFERENCES PROFILE(Id) ON DELETE SET NULL ON UPDATE CASCADE,
+    FOREIGN KEY(UserC) REFERENCES PROFILE(Id) ON DELETE SET NULL ON UPDATE CASCADE
+);
+
+
+
