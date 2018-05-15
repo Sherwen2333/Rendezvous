@@ -51,6 +51,7 @@ Collaborates with
 ## Award
 This project won CSE 305 Course Project Competition with award certificates given by [Prof. Scott Smolka](http://www3.cs.stonybrook.edu/~sas/)
   
-  
+## Connection
+For testing change src/rendezvous/Login.java, src/rendezvous/MainConnector.java and src/staff/StaffLogin.java connection infomation to yours.
   
 #### For other information visit [http://www3.cs.stonybrook.edu/~sas/courses/cse305/spr18/project/main.html](http://www3.cs.stonybrook.edu/~sas/courses/cse305/spr18/project/main.html)
