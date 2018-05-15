@@ -11,11 +11,6 @@ public class Customer {
 		if (username == null)
 			return null;
 
-		// Developer's login info
-		if (username.equals("cse")) {
-			return "B";
-		}
-
 		// Find Profile Placement Priority from the database
 		try {
 			Connection con = MainConnector.getCon();
