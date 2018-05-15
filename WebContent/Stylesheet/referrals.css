@@ -1,0 +1,48 @@
+@CHARSET "UTF-8";
+
+/* Likes Title */
+.headTitle {
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	text-align: center;
+	font-weight: 500;
+	color: #337bae;
+	margin-top: 3em;
+}
+
+.headIcon {
+	font-size: 4em;
+}
+
+.headText {
+	font-size: 1.5em;
+	font-weight: 500;
+}
+
+.tableContainer {
+	text-align: center;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 2em;
+	margin-bottom: 4em;
+}
+
+.tableContainer table {
+	width: 100%;
+	border: 0.1em solid lightgrey;
+	border-radius: 0.625em;
+	padding: 1em;
+	box-shadow: 0.3em 0.3em 0.1em lightgrey;
+}
+
+.tableContainer a {
+	text-decoration: none;
+	color: black;
+	cursor: auto;
+}
+
+.tableContainer a:hover {
+	color: #337bae;
+}

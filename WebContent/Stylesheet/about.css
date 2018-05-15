@@ -1,0 +1,122 @@
+@CHARSET "UTF-8";
+
+.staffSSN {
+	margin-top: 1em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	text-align: right;
+	color: #e6e6e6;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+.aboutTitle {
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	text-align: center;
+	font-size: 1.8em;
+	font-weight: 500;
+	color: #ddbc96;
+}
+
+.aboutOtherTitle {
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	text-align: center;
+	font-size: 1.8em;
+	font-weight: 500;
+	color: #f18d9e;
+}
+
+.infoContainer {
+	min-height: 10em;
+	width: 30em;
+	margin-left: 50%;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.infoInnerContainer{
+	padding: 2em 3em;
+	width: 20em;
+	min-height: 1em;
+	border: 0.1em solid #b38867;
+	border-radius: 0.625em;
+	margin-left: -13em;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	line-height: 1.9;
+}
+
+.infoInnerContainer_Other {
+	padding: 2em 3em;
+	width: 20em;
+	min-height: 1em;
+	border: 0.1em solid #f18d9e;
+	border-radius: 0.625em;
+	margin-left: -13em;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	line-height: 1.9;
+}
+
+.search {
+	text-align: right;
+	margin-bottom: 2em;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+.textfield {
+	max-width: 7em;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 0.8em;
+}
+
+.addNewBTN, .editBTN {
+	text-align: center;
+	font-weight: 550;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+.addNewBTN a {
+	padding: 1em 1.5em;
+	color: white;
+	text-decoration: none;
+	background-color: #ddbc96;
+	border-radius: 0.625em;
+}
+
+.addNewBTN a:hover {
+	background-color: #EFCD66;
+}
+
+.editBTN {
+	margin-top: 1em;
+}
+
+.editBTN a {
+	padding: 0.5em 1em;
+	color: white;
+	text-decoration: none;
+	background-color: #f18d9e;
+	border-radius: 0.625em;
+}
+
+.editBTN a:hover {
+	background-color: #fda2b2;
+}
+
+.saveBTNContainer {
+	margin-top: 0.5em;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.error {
+	text-align: center;
+	font-size: 0.9em;
+	color: red;
+}

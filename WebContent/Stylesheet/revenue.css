@@ -1,0 +1,159 @@
+@CHARSET "UTF-8";
+
+.rendezvous a {
+	color: #d52b2d;
+	text-decoration: none;
+}
+
+.rendezvous a:hover {
+	color: #f34c38;
+	text-decoration: none;
+}
+
+.staffSSN {
+	margin-top: 1em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	text-align: right;
+	color: #e6e6e6;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+.titleIcon {
+	padding-top: 0.5em;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	text-align: center;
+	font-size: 4em;
+	font-weight: 500;
+	color: #337bae;
+}
+
+.titleText {
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: 500;
+	color: #337bae; /*#e8a735;*/
+}
+
+.optionContainer {
+	padding-top: 3em;
+	padding-bottom: 1em;
+	min-width: 68em;
+	text-align: center;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-weight: 500;
+	font-size: 1.1em;
+}
+
+.option {
+	background: #337bae;
+	color: white;
+	padding: 1em 1.2em;
+	border-radius: 10px;
+	text-decoration: none;
+	margin: 1em;
+}
+
+.option1 {
+	padding: 1em 2em;
+}
+
+.option2 {
+	padding: 1em 3.19em;
+}
+
+.option3 {
+	padding: 1em 6.22em;
+}
+
+.option4 {
+	padding: 1em 6.05em;
+}
+
+.option:hover {
+	background-color: #005a93;
+	color: white;
+}
+
+.CRMostRevenue_TableContainer {
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	margin-left: 35%;
+	margin-right: 35%;
+	margin-top: 2em;
+	margin-bottom: 4em;
+	text-align: center;
+}
+
+.CRMostRevenue_TableContainer a {
+	text-decoration: none;
+	color: black;
+}
+
+.CRMostRevenue_TableContainer a:hover {
+	text-decoration: none;
+	color: #337bae;
+}
+
+
+.instruction {
+	margin-top: 1.5em;
+	margin-bottom: 0.5em;
+	text-align: center;
+	font-size: 1.2em;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+.formContainer {
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	margin-left: 50%;
+}
+
+.formContainer b {
+	font-weight: 500;
+}
+
+.formInnerContainer {
+	line-height: 2;
+	margin-left: -15em;
+	border: 0.125em solid lightgrey;
+	border-radius: 0.625em;
+	padding: 2em;
+	width: 26em;
+}
+
+.submitBTN {
+	margin-top: 0.5em;
+	text-align: center;
+}
+
+.result {
+	color: #005a93;
+	margin-top: 3em;
+	text-align: center;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+.result b {
+	font-weight: 500;
+}
+
+.textfieldContainer {
+	margin: 2em;
+	text-align: center;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+.textfield {
+	text-align: center;
+	width: 18em;
+}

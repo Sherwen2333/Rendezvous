@@ -1,0 +1,69 @@
+@CHARSET "UTF-8";
+
+.searchTitle {
+	text-align: center;
+	font-size: 2em;
+	font-weight: 500;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	padding-top: 2em;
+	padding-bottom: 1em;
+	color: #ff420e;
+}
+
+.formContainer {
+	margin-left: 50%;
+	margin-bottom: 2em;
+}
+
+.formInnerContainer {
+	min-width: 26em;
+	max-width: 26em;
+	margin-left: -14.2em;
+	border: 1px solid #ff9a78;
+	border-radius: 0.625em;
+	padding: 1.2em;
+	font-size: 1em;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+.formContent {
+	margin: 1em;
+	line-height: 2;
+}
+
+.formTitle {
+	font-size: 1.2em;
+	font-weight: 500;
+	text-align: center;
+	padding: 0.5em;
+}
+
+.submitBTN {
+	text-align: center;
+	padding-top: 0.2em;
+}
+
+.error {
+	text-align: center;
+	padding: 0.2em;
+	font-size: 0.9em;
+	color: red;
+}
+
+.result {
+	text-align: center;
+	font-size: 1.2em; 
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+.result a {
+	text-decoration: none;
+	color: black;
+}
+
+.result a:hover {
+	color: #ff420e;
+}

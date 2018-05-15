@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+.helpTOP_Icon {
+	margin-top: 1em;
+	font-size: 4em;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	text-align: center;
+	color: #6eb5c0;
+}
+
+.helpTOP_Text {
+	font-size: 1.5em;
+	font-weight: 500;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	text-align: center;
+	color: #6eb5c0;
+}
+
+.helpTitle {
+	float: left;
+	min-width: 700px;
+	max-width: 700px;
+	margin-left: 25%;
+	margin-top: 1.5em;
+	margin-bottom: 5em;
+	margin-right: 3em;
+	padding: 1em;
+	font-size: 1.5em;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	display: block;
+	border-radius: 10px;
+	border-color: #6eb5c0;
+	border-width: 2px;
+	border-style: solid;
+	box-shadow: 6px 6px 1px #e2e8e4;
+}
+
+.helpList {
+	float: left;
+	min-width: 600px;
+	max-width: 600px;
+	margin-left: 5%;
+	margin-top: 1.5em;
+	margin-right: 3em;
+	padding: 1em;
+	font-size: 1em;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	display: block;
+	border-radius: 10px;
+	border-color: #6eb5c0;
+	border-width: 2px;
+	border-style: solid;
+	box-shadow: 6px 6px 1px #e2e8e4;
+}
+
+.helpText {
+	float: left;
+	min-width: 500px;
+	max-width: 500px;
+	margin-left: 5%;
+	margin-top: 1.5em;
+	margin-right: 3em;
+	padding: 1em;
+	font-size: 0.7em;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	display: block;
+	border-radius: 10px;
+	border-color: #6eb5c0;
+	border-width: 2px;
+	border-style: solid;
+	box-shadow: 6px 6px 1px #e2e8e4;
+}

@@ -1,0 +1,100 @@
+@CHARSET "UTF-8";
+
+/* Body */
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	min-width: 1100px;
+}
+
+/* Title Bar*/
+.titleBar {
+	width: 100%;
+	height: 4em;
+	background-color: #e6e6e6;
+}
+
+/* Web site Header */
+.rendezvous {
+	color: #d52b2d;
+	font-size: 2em;
+	font-weight: 500;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	margin-left: 5%;
+	margin-top: -1.6em;
+	margin-bottom: 0.2em;
+}
+
+/* Search BTN */
+.signOut {
+	margin-top: -2.65em;
+	margin-right: 2em;
+	padding: 10px, 12px, 12px, 10px;
+	color: white;
+	text-align: right;
+	font-size: 1em;
+	font-weight: 500;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+/* Buttons */
+.signOut a:link, .signOut a:visited {
+	border-radius: 10px;
+	background-color: #006c84;
+	color: white;
+	padding: 0.7em 15px;
+	text-align: center;
+	text-decoration: none;
+	cursor: auto;
+	opacity: 1.0;
+}
+
+.signOut a:hover {
+	border-radius: 10px;
+	padding: 0.7em 15px;
+	text-align: center;
+	background-color: #6eb5c0;
+	color: white;
+}
+
+.staffSSN {
+	margin-top: 1em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 2em;
+	text-align: right;
+	color: #e6e6e6;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	text-align: right;
+}
+
+/* Main */
+.optionContainer {
+	padding-top: 3em;
+	padding-bottom: 3em;
+	min-width: 68em;
+	text-align: center;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-weight: 500;
+	font-size: 1.1em;
+}
+
+.option {
+	background: #67baca;
+	color: white;
+	padding: 1em 1.2em;
+	border-radius: 10px;
+	text-decoration: none;
+	margin: 1em;
+}
+
+.option:hover {
+	background-color: #39acc1;
+	color: white;
+}

@@ -1,0 +1,78 @@
+@CHARSET "UTF-8";
+
+.rendezvous a {
+	color: #d52b2d;
+	text-decoration: none;
+}
+
+.rendezvous a:hover {
+	color: #f34c38;
+	text-decoration: none;
+}
+
+.staffSSN {
+	margin-top: 1em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	text-align: right;
+	color: #e6e6e6;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+.titleIcon {
+	margin-top: 0.2em;
+	text-align: center;
+	font-size: 4em;
+	font-weight: 500;
+	color: #d70026;
+}
+
+.titleText {
+	color: #d70026;
+	margin: 0.8em;
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: 500;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+.formContainer {
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	margin-left: 50%;
+	margin-bottom: 5em;
+}
+
+.formContainer b {
+	font-weight: 500;
+}
+
+.formInnerContainer {
+	line-height: 2;
+	margin-left: -12em;
+	border: 0.125em solid lightgrey;
+	border-radius: 0.625em;
+	padding: 2em;
+	width: 20em;
+	box-shadow: 2px 2px 2px #d8d8d8;
+}
+
+.error {
+	color: #d70026;
+	text-align: center;
+	font-size: 0.9em;
+}
+
+.submitBTN {
+	text-align: center;
+	font-size: 1.2em;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+.fontfont {
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+}

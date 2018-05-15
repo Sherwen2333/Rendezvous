@@ -1,0 +1,173 @@
+@CHARSET "UTF-8";
+
+body {
+	background-color: white;
+	background-size: auto;
+	background-image: url("Image/asanoha.png");
+	background-repeat: repeat;
+	background-attachment: fixed;
+	height: 100%;
+	width: 100%;
+	min-width: 600px;
+	padding: 0;
+	margin: 0;
+}
+
+/* Title Bar*/
+.titleBar {
+	width: 100%;
+	height: 4em;
+	background-color: #e6e6e6;
+	background-image: url("Image/escheresque_ste.png");
+	background-size: auto;
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+
+/* Web site Header */
+.rendezvous {
+	color: #ffffff;
+	font-size: 2em;
+	font-weight: 500;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	margin-left: 5%;
+	margin-top: -1.6em;
+	margin-bottom: 0.2em;
+}
+
+/* Search BTN */
+.signOut {
+	margin-top: -2.65em;
+	margin-right: 2em;
+	padding: 10px, 12px, 12px, 10px;
+	color: white;
+	text-align: right;
+	font-size: 1em;
+	font-weight: 500;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+/* Buttons */
+.signOut a:link, .signOut a:visited {
+	border-radius: 10px;
+	background-color: #2a93d5;
+	color: white;
+	padding: 0.7em 15px;
+	text-align: center;
+	text-decoration: none;
+	cursor: auto;
+	opacity: 1.0;
+}
+
+.signOut a:hover {
+	border-radius: 10px;
+	padding: 0.7em 15px;
+	text-align: center;
+	background-color: #135589;
+	color: white;
+}
+
+/* Welcome */
+.welcomeIcon {
+	color: #135589;
+	font-size: 5em;
+	font-weight: 600;
+	font-family: Helvetica, "Times New Roman", "Avenir Next",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	margin-top: 1em;
+	text-align: center;
+}
+
+.welcomeText {
+	color: #135589;
+	font-size: 1.7em;
+	font-weight: 600;
+	font-family: Helvetica, "Times New Roman", "Avenir Next",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	text-align: center;
+	margin-top: 0.2em;
+	margin-bottom: 1em;
+}
+
+.chooseProf {
+	margin-top: 1.5em;
+	/*margin-left: 5%;*/
+	color: #022140;
+	text-align: center;
+	font-weight: 600;
+	font-family: Helvetica, "Times New Roman", "Avenir Next",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+/* Create Profile */
+.createContainer {
+	margin-left: 50%;
+	color: white;
+}
+
+.optionContainer {
+	padding-top: 3em;
+	text-align: center;
+}
+
+.optionContainer a {
+	padding: 1em;
+	background-color: #2a93d5;
+	border-radius: 10px;
+	text-decoration: none;
+	cursor: auto;
+	color: white;
+	font-family: "Avenir Next", Helvetica, "Times New Roman", 
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-weight: 500;
+	margin: 0.5em;
+}
+
+.optionContainer a:hover {
+	background-color: #135589;
+}
+
+/* Profile */
+.profileContainer {
+	margin-top: 5%;
+	margin-left: 50%;
+}
+
+.profile {
+	letter-spacing: 1px;
+	font-size: 1.2em;
+	font-weight: 500;
+	font-family: "Georgia", "Avenir Next", Helvetica, "Franklin Gothic Bold",
+		"Arial Black", "sans-serif";
+	min-width: 400px;
+	max-width: 400px;
+	margin-left: -250px;
+	margin-bottom: 1.3em;
+	text-indent: 0.5em;
+	background-color: white;
+	border-radius: 10px;
+	border-color: gray;
+	height: 2.5em;
+}
+
+.submit {
+	min-width: 90px;
+	max-width: 90px;
+	font-size: 1.2em;
+	font-weight: 600;
+	font-family: "Georgia", "Avenir Next", Helvetica, "Franklin Gothic Bold",
+		"Arial Black", "sans-serif";
+	border-radius: 10px;
+	letter-spacing: 1px;
+	padding: 5px;
+	height: 2.5em;
+	background-color: #2a93d5;
+	border-color: gray;
+	color: white;
+}
+
+.submit:hover, .create:hover {
+	background-color: #135589;
+}

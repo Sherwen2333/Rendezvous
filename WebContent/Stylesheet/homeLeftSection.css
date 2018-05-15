@@ -1,0 +1,234 @@
+@CHARSET "UTF-8";
+
+.leftSection {
+	position: absolute;
+	margin-top: 3.8em;
+	margin-right: 30em;
+	margin-left: 3em;
+	min-width: 760px;
+	width: 60%;
+	/*border: 2px solid black;*/
+}
+
+/* Left Top Bar */
+.leftTopBar {
+	margin-left: 3em;
+	margin-right: 3em;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-weight: 500;
+}
+
+.leftTopBar_Table {
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-weight: 500;
+	width: 100%;
+}
+
+/*Dates BTN */
+.datesBTN {
+	text-align: center;
+	color: #6fb98f;
+}
+
+.datesBTN a:link, .datesBTN a:visited {
+	color: #6fb98f;
+	text-decoration: none;
+	cursor: auto;
+}
+
+.datesBTN a:hover {
+	color: #9de0b5;
+	text-decoration: none;
+	cursor: auto;
+}
+
+/* Photos BTN */
+.photosBTN {
+	text-align: center;
+	color: #e9b641;
+}
+
+.photosBTN a:link, .photosBTN a:visited {
+	color: #e9b641;
+	text-decoration: none;
+	cursor: auto;
+}
+
+.photosBTN a:hover {
+	color: #ffc646;
+	text-decoration: none;
+	cursor: auto;
+}
+
+
+/* Likes BTN */
+.likesBTN {
+	text-align: center;
+	color: #e66c4d;
+}
+
+.likesBTN a:link, .likesBTN a:visited {
+	color: #e66c4d;
+	text-decoration: none;
+	cursor: auto;
+}
+
+.likesBTN a:hover {
+	color: #ff7756;
+	text-decoration: none;
+	cursor: auto;
+}
+
+/* Referral BTN*/
+.referralBTN {
+	text-align: center;
+	color: #375e97;
+}
+
+.referralBTN a:link, .referralBTN a:visited {
+	color: #375e97;
+	text-decoration: none;
+	cursor: auto;
+}
+
+.referralBTN a:hover {
+	color: #5c86d7;
+	text-decoration: none;
+	cursor: auto;
+}
+
+/******/
+/* Geo BTN*/
+.geoBTN {
+	text-align: center;
+	color: #ff8b94;
+}
+
+.geoBTN a:link, .geoBTN a:visited {
+	color: #ff8b94;
+	text-decoration: none;
+	cursor: auto;
+}
+
+.geoBTN a:hover {
+	color: #ffaaa5;
+	text-decoration: none;
+	cursor: auto;
+}
+
+/* Icons/Texts General*/
+.dateIcon, .photoIcon, .likesIcon, .referralIcon, .geoIcon {
+	font-size: 3em;
+}
+.dateText, .photoText, .likesText, .referralText, .geoText {
+	font-size: 1em;
+}
+
+/******************/
+/* Upcoming Date */
+.upcomingTitle {
+	margin-top: 1.5em;
+	margin-left: 1.5em;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-weight: 600;
+	font-size: 1.3em;
+	color: #1e656d;
+}
+
+.upcomingContainer {
+	padding: 0.9em;
+	margin-top: 0.8em;
+	margin-left: 1em;
+	border: 2px solid #1e656d;
+	border-radius: 10px;
+	box-shadow: 6px 6px 1px #dddddd;
+}
+
+.upcomingNoDate {
+	text-align: center;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-weight: 600;
+	font-size: 1.3em;
+	color: #cccccc;
+}
+
+.upcomingDate {
+	margin-top: -2.4em;
+	width: 45%;
+	text-align: center;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-weight: 600;
+	font-size: 2em;
+	color: #336b87;
+	border-right: 1px solid lightgrey;
+}
+
+.upcomingTime {
+	width: 45%;
+	text-align: center;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-weight: 600;
+	font-size: 2em;
+	color: #336b87;
+	border-right: 1px solid lightgrey;
+}
+
+.upcomingId {
+	margin-top: 1em;
+}
+
+.upcomingId, .upcomingLocation, .upcomingFee {
+	margin-left: 50%;
+	width: 50%;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 1em;
+	color: #336b87;
+}
+
+
+/******************/
+/* Recommendation */
+.recommendationTitle {
+	margin-top: 2em;
+	margin-left: 1.5em;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-weight: 600;
+	font-size: 1.3em;
+	color: #e59d11;
+}
+
+.recommendationContainer {
+	margin-top: 0.8em;
+	margin-left: 1em;
+	min-height: 3em;
+	border: 2px solid #e59d11;
+	border-radius: 10px;
+	box-shadow: 6px 6px 1px #dddddd;
+}
+
+.recommendationContent {
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+.recommendationContent a {
+	color: black;
+	text-decoration: none;
+	cursor: auto;
+}
+
+.recommendationContent a:hover {
+	color: #375e97;
+}
+
+.suggestHeader {
+	color: #8f8e90;
+}

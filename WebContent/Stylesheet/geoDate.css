@@ -1,0 +1,142 @@
+@CHARSET "UTF-8";
+
+body {
+	background-color: white;
+	background-size: auto;
+	background-image: url("Image/cubes.png");
+	background-repeat: repeat;
+	background-attachment: fixed;
+	height: 100%;
+	width: 100%;
+	min-width: 600px;
+	padding: 0;
+	margin: 0;
+}
+
+/* Title Bar*/
+.titleBar {
+	width: 100%;
+	height: 4em;
+	background-color: #e6e6e6;
+	background-image: url("Image/escheresque_ste.png");
+	background-size: auto;
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+
+/* Web site Header */
+.rendezvous {
+	color: #ffffff;
+	font-size: 2em;
+	font-weight: 500;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	margin-left: 5%;
+	margin-top: -1.6em;
+	margin-bottom: 0.2em;
+}
+
+/* Search BTN */
+.signOut {
+	margin-top: -2.65em;
+	margin-right: 2em;
+	padding: 10px, 12px, 12px, 10px;
+	color: white;
+	text-align: right;
+	font-size: 1em;
+	font-weight: 500;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+/* Buttons */
+.signOut a:link, .signOut a:visited {
+	border-radius: 10px;
+	background-color: #006c84;
+	color: white;
+	padding: 0.7em 15px;
+	text-align: center;
+	text-decoration: none;
+	cursor: auto;
+	opacity: 1.0;
+}
+
+.signOut a:hover {
+	border-radius: 10px;
+	padding: 0.7em 15px;
+	text-align: center;
+	background-color: #6eb5c0;
+	color: white;
+}
+
+.geoTitle {
+	margin-top: 2em;
+	text-align: center;
+	font-size: 2em;
+	font-weight: 500;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	line-height: 1.5;
+}
+
+.formContainer {
+	margin-top: 2em;
+	text-align: center;
+}
+
+.tf {
+	text-align: center;
+	font-size: 1.2em;
+	width: 20em;
+}
+
+.submit {
+	text-align: center;
+	font-size: 3em;
+}
+
+.cancelBTN {
+	margin-top: 2em;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: 500;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+.cancelBTN a {
+	text-decoration: none;
+	background-color: #575757;
+	color: #FFB88C;
+	padding: 0.4em 0.8em;
+	border-radius: 0.6em;
+}
+
+.mess {
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+.mess a{
+	font-weight: 500;
+	text-decoration: none;
+	cursor: auto;
+	opacity: 1.0;
+	color: black;
+}
+
+.mess a:hover {
+	font-weight: 500;
+	text-decoration: none;
+	cursor: auto;
+	opacity: 1.0;
+	color: #006c84;
+}
+
+.btn {
+	margin: 0.5em;
+	text-decoration: none;
+	background-color: #74c0e3;
+	padding: 0.4em 0.8em;
+	border-radius: 0.6em;
+}

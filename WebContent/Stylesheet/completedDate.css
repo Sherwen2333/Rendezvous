@@ -1,0 +1,265 @@
+@CHARSET "UTF-8";
+
+/* Body */
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	min-width: 1100px;
+}
+
+/* Title Bar*/
+.titleBar {
+	width: 100%;
+	height: 4em;
+	background-color: #e6e6e6;
+	background-image: url("Image/escheresque_ste.png");
+	background-size: auto;
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+
+/* Web site Header */
+.rendezvous {
+	color: #ffffff;
+	font-size: 2em;
+	font-weight: 500;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	margin-left: 5%;
+	margin-top: -1.6em;
+	margin-bottom: 0.2em;
+}
+
+/* Back BTN */
+.backBTN {
+	margin-top: -2.65em;
+	margin-right: 2em;
+	padding: 10px, 12px, 12px, 10px;
+	color: white;
+	text-align: right;
+	font-size: 1em;
+	font-weight: 500;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+.backBTN a:link, .backBTN a:visited {
+	border-radius: 10px;
+	background-color: #006c84;
+	color: white;
+	padding: 0.7em 15px;
+	text-align: center;
+	text-decoration: none;
+	cursor: auto;
+	opacity: 1.0;
+}
+
+.backBTN a:hover {
+	border-radius: 10px;
+	padding: 0.7em 15px;
+	text-align: center;
+	background-color: #6eb5c0;
+	color: white;
+}
+
+/* Dates Title */
+.dateTitle {
+	margin-top: 3em;
+	text-align: center;
+	color: #128277;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+.dateIcon {
+	font-size: 4em;
+}
+
+.dateText {
+	font-size: 1.5em;
+	font-weight: 500;
+}
+
+/* Date Container */
+.dateContainer {
+	margin-top: 10px;
+	margin-left: 17em;
+	margin-right: 17em;
+	margin-bottom: 3em;
+	border: 1.5px solid #128277;
+	border-radius: 10px;
+	padding: 10px;
+	min-width: 800px;
+}
+
+.pendingBTN {
+	text-align: center;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+.pendingBTN a:link, .pendingBTN a:visited {
+	border-radius: 10px;
+	background-color: #7fbfb6;
+	color: white;
+	padding: 0.7em 15px;
+	text-align: center;
+	text-decoration: none;
+	cursor: auto;
+	opacity: 1.0;
+}
+
+.completedBTN {
+	text-align: center;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+.completedBTN a:link, .completedBTN a:visited {
+	border-radius: 10px;
+	background-color: #128277;
+	color: white;
+	padding: 0.7em 15px;
+	text-align: center;
+	text-decoration: none;
+	cursor: auto;
+	opacity: 1.0;
+}
+
+/* Likes Row */
+.dateRow {
+	margin-left: 3em;
+	margin-right: 3em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+/* No data */
+.dateNoData {
+	color: lightgray;
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* Left */
+.completedLeft {
+	width: 50%;
+	text-align: right;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	border-right: 2px solid #66cccc;
+}
+
+.completedCircle {
+	width: 10px;
+	height: 10px;
+	margin-left: 100%;
+}
+
+.completedCircleAlign {
+	background-color: white;
+	border: 2px solid black;
+	border-radius: 10px;
+	width: 10px;
+	height: 10px;
+	margin-left: 0.675em;
+}
+
+.completedLeftText {
+	font-size: 1.2em;
+	padding: 1em;
+}
+
+.completedLeftInfo {
+	padding-right: 1.5em;
+	padding-bottom: 0.5em;
+	margin-top: -0.5em;
+	font-size: 0.9em;
+	color: #959498;
+}
+
+.completedLeftInfo a {
+	text-decoration: none;
+	color: #959498;
+}
+
+.completedLeftInfo a:hover {
+	text-decoration: none;
+	color: #151515;
+}
+
+.leftCancelBTN {
+	padding-right: 1.5em;
+	padding-bottom: 1em;
+}
+
+.leftCancelBTN a:link, .leftCancelBTN a:visited {
+	color: black;
+	cursor: auto;
+	opacity: 1.0;
+	font-size: 0.9em;
+}
+
+/* Right */
+.completedRight {
+	width: 50%;
+	text-align: left;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	border-left: 2px solid #66cccc;
+	margin-left: 50%;
+}
+
+.completedRightCircle {
+	width: 10px;
+	height: 10px;
+}
+
+.completedRightCircleAlign {
+	background-color: white;
+	border: 2px solid black;
+	border-radius: 10px;
+	width: 10px;
+	height: 10px;
+	margin-left: -1.425em;
+}
+
+.completedRightText {
+	font-size: 1.2em;
+	padding: 1em;
+}
+
+.completedRightInfo {
+	padding-left: 1.5em;
+	padding-bottom: 0.5em;
+	margin-top: -0.5em;
+	font-size: 0.9em;
+	color: #959498;
+}
+
+.completedRightInfo a {
+	text-decoration: none;
+	color: #959498;
+}
+
+.completedRightInfo a:hover {
+	text-decoration: none;
+	color: #151515;
+}
+
+.rightCancelBTN {
+	padding-left: 1.5em;
+	padding-bottom: 1em;
+}
+
+.rightCancelBTN a:link, .rightCancelBTN a:visited {
+	color: black;
+	cursor: auto;
+	opacity: 1.0;
+	font-size: 0.9em;
+}

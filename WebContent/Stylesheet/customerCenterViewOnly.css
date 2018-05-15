@@ -1,0 +1,237 @@
+@CHARSET "UTF-8";
+
+body {
+	background-color: white;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100%;
+	width: 100%;
+	min-width: 600px;
+	padding: 0;
+	margin: 0;
+}
+
+/* Title Bar*/
+.titleBar {
+	width: 100%;
+	height: 4em;
+	background-color: #e6e6e6;
+}
+
+/* Web site Header */
+.rendezvous {
+	color: #135589;
+	font-size: 2em;
+	font-weight: 500;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	margin-left: 5%;
+	margin-top: -1.6em;
+	margin-bottom: 0.2em;
+}
+
+.rendezvous a {
+	text-decoration: none;
+	cursor: auto;
+	color: #135589;
+}
+
+.rendezvous a:hover {
+	text-decoration: none;
+	cursor: auto;
+	color: #2a93d5;
+}
+
+/* Search BTN */
+.signOut {
+	margin-top: -2.65em;
+	margin-right: 2em;
+	padding: 10px, 12px, 12px, 10px;
+	color: white;
+	text-align: right;
+	font-size: 1em;
+	font-weight: 500;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+/* Buttons */
+.signOut a:link, .signOut a:visited {
+	border-radius: 10px;
+	background-color: #2a93d5;
+	color: white;
+	padding: 0.7em 15px;
+	text-align: center;
+	text-decoration: none;
+	cursor: auto;
+	opacity: 1.0;
+}
+
+.signOut a:hover {
+	border-radius: 10px;
+	padding: 0.7em 15px;
+	text-align: center;
+	background-color: #135589;
+	color: white;
+}
+
+.staffSSN {
+	margin-top: 1em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 2em;
+	text-align: right;
+	color: #e6e6e6;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	text-align: right;
+}
+
+.ccTitle {
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	text-align: center;
+	font-size: 2em;
+	font-weight: 550;
+	color: #de7a22; /*#ff77aa;*/
+	padding-bottom: 2em;
+}
+
+.flTitle {
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	text-align: center;
+	font-size: 2em;
+	font-weight: 550;
+	color: #f56c57;
+	padding-bottom: 1.5em;
+}
+
+.container {
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	text-align: center;
+}
+
+.editContainer {
+	margin-top: 5em;
+	margin-bottom: 4em;
+}
+
+.option {
+	text-decoration: none;
+	padding: 1.2em 2em;
+	background-color: #f4cc70;
+	border-radius: 10px;
+	text-decoration: none;
+	text-align: center;
+	font-weight: 500;
+	font-family: "Monaco", "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 1.05em;
+	color: #ffffff;
+}
+
+.option:hover {
+	background-color: #faaf08;
+}
+
+.listContainer {
+	margin-bottom: 4em;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 1.05em;
+	text-align: center;
+	line-height: 1.8;
+}
+
+.listItem a {
+	text-decoration: none;
+	color: black;
+}
+
+.listItem a:link a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+.listItem a:hover {
+	text-decoration: none;
+	color: #fa812f;
+}
+
+.infoContainer {
+	padding: 2em;
+	margin-top: 2.3em;
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-bottom: 5em;
+	min-width: 25em;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	border: 0.1em solid lightgrey;
+	border-radius: 0.625em;
+	line-height: 1.7;
+}
+
+.infoContainer a {
+	text-decoration: none;
+	color: black;
+}
+
+.infoContainer a:link a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+.infoContainer a:hover {
+	text-decoration: none;
+	color: #2a93d5;
+}
+
+.profileListContainer {
+	margin-left: 4em;
+}
+
+.editBTN {
+	text-align: right;
+	color: #989898;
+}
+
+.doneBTNContainer {
+	text-align: center;
+}
+
+.doneBTN {
+	font-size: 1em;
+}
+
+.infoContainerTextfield {
+	text-align: center;
+	margin: 0.5em 0em;
+	font-size: 0.9em;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+.closeContainer {
+	margin-top: 2.5em;
+	text-align: center;
+	font-size: 0.8em;
+	font-weight: 500;
+}
+
+.closeContainer a {
+	padding: 1em;
+	background-color: #cf1d00;
+	text-decoration: none;
+	color: white;
+	border-radius: 0.625em;
+	cursor: auto
+}
+
+.closeContainer a:hover {
+	background-color: #ef3e23;
+	color: white;
+}

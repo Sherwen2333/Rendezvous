@@ -1,0 +1,94 @@
+@CHARSET "UTF-8";
+
+.staffSSN {
+	margin-top: 1em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	text-align: right;
+	color: #e6e6e6;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+.mailTitle {
+	margin-top: 0.5em;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	text-align: center;
+	font-size: 4em;
+	font-weight: 500;
+	color: #337bae;
+}
+
+.mailTitleText {
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: 500;
+	color: #337bae;/*#e8a735;*/
+}
+
+.optionTitle {
+	font-family: "Times New Roman", "Avenir Next", Helvetica, 
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: 600;
+	margin-top: 2em;
+}
+
+.allEmailContainer {
+	text-align: center;
+	margin-top: 3.5em;
+	margin-bottom: 1em;
+}
+
+.option {
+	text-decoration: none;
+	padding: 1em;
+	background-color: #67baca;/*#426e86;*/
+	border-radius: 10px;
+	text-decoration: none;
+	text-align: center;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 1.02em;
+	color: white;
+}
+
+.selectedOption {
+	background-color: #337bae;
+}
+
+.allList {
+	margin-top: 3em;
+	text-align: center;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	margin-bottom: 3em;
+	line-height: 1.8;
+}
+
+.searchBox {
+	text-align: center;
+	margin-top: 3em;
+}
+
+.textfield {
+	text-align: center;
+	font-size: 0.9em;
+}
+
+.allList a {
+	color: black;
+	text-decoration: none;
+}
+
+.allList a:link a:visited {
+	color: black;
+}
+
+.allList a:hover {
+	color: #426e86;
+}

@@ -1,0 +1,54 @@
+@CHARSET "UTF-8";
+
+.title {
+	text-align: center;
+	font-size: 2em;
+	font-weight: 500;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	padding-top: 2em;
+	padding-bottom: 1em;
+	color: black;
+}
+
+.formContainer {
+	margin-left: 50%;
+	margin-bottom: 2em;
+}
+
+.formInnerContainer {
+	min-width: 22em;
+	max-width: 22em;
+	margin-left: -13em;
+	border: 1px solid #4f5051;
+	border-radius: 0.625em;
+	box-shadow: 6px 6px 1px #e5e5e5;
+	padding: 2em;
+	font-size: 1em;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	line-height: 1.8;
+	background-color: white;
+}
+
+.formInnerContainer b {
+	font-weight: 500;
+}
+
+.instruction {
+	font-size: 0.8em;
+	color: red;
+	margin-bottom: 0.5em;
+}
+
+.submitButton {
+	padding-top: 0.5em;
+	text-align: center;
+}
+
+.error {
+	text-align: center;
+	padding-top: 1em;
+	font-size: 0.9em;
+	color: red;
+}

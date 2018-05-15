@@ -1,0 +1,219 @@
+@CHARSET "UTF-8";
+
+
+/* Profile */
+.profileContainer {
+	float: right;
+	min-width: 350px;
+	max-width: 350px;
+	margin-left: 65%;
+	margin-top: 3.8em;
+	margin-right: 3em;
+	padding: 2em;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	display: block;
+	border-radius: 10px;
+	border-color: #6eb5c0;
+	border-width: 2px;
+	border-style: solid;
+	box-shadow: 6px 6px 1px #e2e8e4;
+}
+
+.prof_Avatar {
+	text-align: center;
+	font-weight: 500;
+	font-size: 4.8em;
+	color: #DDDEDE;
+	padding-bottom: 10px;
+}
+
+/* Profile Id */
+.prof_Id {
+	text-align: center;
+	font-weight: 500;
+	font-size: 1.3em;
+}
+
+/* Rate */
+.prof_Rate {
+	text-align: center;
+	font-weight: 500;
+	color: #e1b80d;
+	padding: 5px;
+}
+
+
+.tableDataPC th {
+	font-weight: 600;
+	font-size: 1.1em;
+	color: #66a5ad;
+}
+
+.tableDataPC td {
+	font-size: 1em;
+	color: #66a5ad;
+}
+
+.prof_PendingTitle {
+	width: 50%;
+	text-align: center;
+	font-weight: 600;
+	font-size: 1.1em;
+	color: #66a5ad;
+	border-right: 1.5px solid lightgray;
+}
+
+.prof_PendingNum {
+	width: 50%;
+	text-align: center;
+	font-size: 1em;
+	color: #66a5ad;
+	border-right: 1.5px solid lightgray;
+}
+
+.prof_CompletedTitle {
+	margin-top: -2.66em;
+	margin-left: 50%;
+	width: 50%;
+	text-align: center;
+	font-weight: 600;
+	font-size: 1.1em;
+	color: #66a5ad;
+}
+
+.prof_CompletedNum {
+	margin-left: 50%;
+	width: 50%;
+	text-align: center;
+	font-size: 1em;
+	color: #66a5ad;
+	padding-bottom: 1em;
+}
+
+/* Age */
+.prof_AgeTitle {
+	padding-bottom: 2px;
+	width: 33.33333%;
+	text-align: center;
+	font-size: 1.1em;
+	font-weight: 600;
+	color: #909090;
+}
+
+.tableDataA {
+	padding-bottom: 2px;
+	width: 100%;
+	text-align: center;
+}
+
+.tableDataA th {
+	font-size: 1.1em;
+	font-weight: 600;
+	color: #909090;
+}
+
+.prof_Age {
+	width: 33.33333%;
+	text-align: center;
+}
+
+/* Height */
+.prof_HeightTitle {
+	margin-left: 33.33333%;
+	margin-top: -2.8em;
+	padding-bottom: 2px;
+	width: 33.33333%;
+	text-align: center;
+	font-size: 1.1em;
+	font-weight: 600;
+	color: #909090;
+}
+
+.prof_Height {
+	margin-left: 33.33333%;
+	width: 33.33333%;
+	text-align: center;
+}
+
+/* Height */
+.prof_WeightTitle {
+	margin-left: 66.66666%;
+	margin-top: -2.8em;
+	padding-bottom: 2px;
+	width: 33.33333%;
+	text-align: center;
+	font-size: 1.1em;
+	font-weight: 600;
+	color: #909090;
+}
+
+.prof_Weight {
+	margin-left: 66.66666%;
+	width: 33.33334%;
+	text-align: center;
+}
+
+/* Address*/
+.prof_AddrTitle {
+	padding-top: 1em;
+	text-align: center;
+	font-size: 1.1em;
+	font-weight: 600;
+	color: #909090;
+}
+
+.prof_Address {
+	text-align: center;
+}
+
+/* Hair Color */
+.prof_HairColorTitle {
+	padding-top: 1em;
+	text-align: center;
+	font-size: 1.1em;
+	font-weight: 600;
+	color: #909090;
+}
+
+.prof_HairColor {
+	text-align: center;
+}
+
+/* Hobby */
+.prof_HobbyTitle {
+	padding-top: 1em;
+	text-align: center;
+	font-size: 1.1em;
+	font-weight: 600;
+	color: #909090;
+}
+
+.prof_Hobby {
+	text-align: center;
+}
+
+/* Creation Date */
+.prof_Created {
+	text-align: center;
+	font-size: 0.8em;
+	padding: 1em;
+	color: gray;
+}
+
+/* Edit Profile */
+.prof_Edit {
+	text-align: center;
+	font-weight: 600;
+	font-size: 1.1em;
+}
+
+.prof_Edit a {
+	text-decoration: none;
+	color: black;
+}
+
+.prof_Edit a:hover {
+	text-decoration: none;
+	color: #6eb5c0;
+}

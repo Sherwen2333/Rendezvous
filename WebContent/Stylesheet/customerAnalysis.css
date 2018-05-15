@@ -1,0 +1,98 @@
+@CHARSET "UTF-8";
+
+.rendezvous a {
+	color: #d52b2d;
+	text-decoration: none;
+}
+
+.rendezvous a:hover {
+	color: #f34c38;
+	text-decoration: none;
+}
+
+.staffSSN {
+	margin-top: 1em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	text-align: right;
+	color: #e6e6e6;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+.titleIcon {
+	padding-top: 0.5em;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	text-align: center;
+	font-size: 4em;
+	font-weight: 500;
+	color: #337bae;
+}
+
+.titleText {
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: 500;
+	color: #337bae; /*#e8a735;*/
+}
+
+.optionContainer {
+	padding-top: 3em;
+	padding-bottom: 1em;
+	min-width: 68em;
+	text-align: center;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-weight: 500;
+	font-size: 1.1em;
+}
+
+.option {
+	background: #337bae;
+	color: white;
+	padding: 1em 1.2em;
+	border-radius: 10px;
+	text-decoration: none;
+	margin: 1em;
+}
+
+.option1 {
+	padding: 1em 8.41em;
+}
+
+.option2 {
+	padding: 1em 7.85em;
+}
+
+.option3 {
+	padding: 1em 2.35em;
+}
+
+.option:hover {
+	background-color: #005a93;
+	color: white;
+}
+
+.MostActiveCustomer {
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+.formText {
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 0.9em;
+}
+
+.MostActiveCustomer a {
+	text-decoration: none;
+	color: black;
+}
+
+.MostActiveCustomer a:hover {
+	text-decoration: none;
+	color: #337bae;
+}

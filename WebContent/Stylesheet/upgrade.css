@@ -1,0 +1,51 @@
+@CHARSET "UTF-8";
+
+.upgradeTitle {
+	margin-top: 3em;
+	text-align: center;
+	color: #d9b44a;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+.upgradeIcon {
+	font-size: 4em;
+}
+
+.upgradeText {
+	font-size: 1.5em;
+	font-weight: 500;
+}
+
+.currentPlan {
+	font-size: 1.2em;
+	margin-top: 4em;
+	text-align: center;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+.optionContainer {
+	font-size: 1.2em;
+	font-weight: 500;
+	margin-top: 5em;
+	text-align: center;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+.option {
+	margin: 1.5em;
+	border-radius: 10px;
+	background-color: #d9b44a;/*#31a9b8;*/
+	color: white;
+	padding: 3em 2em;
+	text-align: center;
+	text-decoration: none;
+	cursor: auto;
+	opacity: 1.0;
+}
+
+.option:hover {
+	background-color: #f5d36d;/*#31a9b8;*/
+}

@@ -1,0 +1,172 @@
+@CHARSET "UTF-8";
+
+/* Body */
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	min-width: 1100px;
+}
+
+/* Title Bar*/
+.titleBar {
+	width: 100%;
+	height: 4em;
+	background-color: #e6e6e6;
+}
+
+/* Web site Header */
+.rendezvous {
+	color: #d52b2d;
+	font-size: 2em;
+	font-weight: 500;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	margin-left: 5%;
+	margin-top: -1.6em;
+	margin-bottom: 0.2em;
+}
+
+/* Back BTN */
+.backBTN {
+	margin-top: -2.65em;
+	margin-right: 2em;
+	padding: 10px, 12px, 12px, 10px;
+	color: white;
+	text-align: right;
+	font-size: 1em;
+	font-weight: 500;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+.backBTN a:link, .backBTN a:visited {
+	border-radius: 10px;
+	background-color: #efb509;
+	color: white;
+	padding: 0.7em 15px;
+	text-align: center;
+	text-decoration: none;
+	cursor: auto;
+	opacity: 1.0;
+}
+
+.backBTN a:hover {
+	border-radius: 10px;
+	padding: 0.7em 15px;
+	text-align: center;
+	background-color: #ffcc48;
+	color: white;
+}
+
+/* Likes Title */
+.likesTitle {
+	margin-top: 3em;
+	text-align: center;
+	color: #d52b2d;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+.likesIcon {
+	font-size: 4em;
+}
+
+.likesText {
+	font-size: 1.5em;
+	font-weight: 500;
+}
+
+/* Likes Container */
+.likesContainer {
+	margin-top: 10px;
+	margin-left: 17em;
+	margin-right: 17em;
+	margin-bottom: 3em;
+	border: 1.5px solid #d52b2d;
+	border-radius: 10px;
+	padding: 10px;
+	min-width: 700px;
+}
+
+.likeReceived {
+	margin-top: 2em;
+	margin-right: 51%;
+	text-align: right;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+.likeReceived a:link, .likeReceived a:visited {
+	border-radius: 10px;
+	background-color: #d52b2d;
+	color: white;
+	padding: 0.7em 15px;
+	text-align: right;
+	text-decoration: none;
+	cursor: auto;
+	opacity: 1.0;
+}
+
+.likeGiven {
+	margin-top: -1.38em;
+	margin-left: 51%;
+	text-align: left;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+.likeGiven a:link, .likeGiven a:visited {
+	border-radius: 10px;
+	background-color: #ea807f;
+	color: white;
+	padding: 0.7em 15px;
+	text-align: left;
+	text-decoration: none;
+	cursor: auto;
+	opacity: 1.0;
+}
+
+/* Likes Row */
+.likesRow {
+	margin-left: 3em;
+	margin-right: 3em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+.likeNoData {
+	color: lightgray;
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+}
+
+.likeeId {
+	font-size: 1.2em;
+	text-align: left;
+	margin-left: 5%;
+	margin-top: 1em;
+	font-weight: bold;
+}
+
+.likeeId a {
+	text-decoration: none;
+	color: black;
+}
+
+.likeeId a:hover {
+	text-decoration: none;
+	color: #f1695c;
+}
+
+.likeTime {
+	font-size: 1.2em;
+	text-align: right;
+	margin-right: 5%;
+	margin-top: -1.35em;
+	color: lightgrey;
+}

@@ -1,0 +1,118 @@
+@CHARSET "UTF-8";
+
+body {
+	width: 100%;
+	height: 100%;
+	/*background-color: #93d4ff;
+	background: linear-gradient(to left, #7b4397, #dc2430);*/
+	background: #2980b9; /* fallback for old browsers */
+  	background: -webkit-linear-gradient(to right, #2980b9, #2c3e50); /* Chrome 10-25, Safari 5.1-6 */
+  	background: linear-gradient(to right, #2980b9, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	padding: 0;
+	margin: 0;
+	background-image: url("Image/wallpaper2.jpg");
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	padding: 0;
+	margin: 0;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+.rendezvous {
+	margin-top: 0.8em;
+	margin-left: 5%;
+	font-size: 2.5em;
+	font-weight: 500;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	color: white;
+}
+
+.rendezvous a:link, .rendezvous a:visited {
+	color: white;
+	text-decoration: none;
+	cursor: auto;
+	opacity: 1.0;
+}
+
+.rendezvous a:hover {
+	color: #a6d6da;
+}
+
+.loginBlock {
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -200px;
+	margin-top: -200px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: white;
+	min-width: 300px;
+	min-height: 300px;
+	width: 300px;
+	max-width: 300px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.loginTitle {
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.6em;
+	font-family: Helvetica, "Times New Roman", "Avenir Next",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+.loginInfo {
+	margin-left: 0;
+	line-height: 1.8;
+	/*font-weight: bold;*/
+	font-size: 1em;
+	font-family: Helvetica, "Times New Roman", "Avenir Next",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+.loginTextfield {
+	align: center;
+	width: 280px;
+	font-size: 1em;
+	letter-spacing: 1px;
+	font-family: Helvetica, "Times New Roman", "Avenir Next",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 15px;
+}
+
+.button {
+	color: white;
+	background: #2980b9;
+	border-color: #bababa;
+	width: 100px;
+	margin-left: 100px;
+	letter-spacing: 1.5px;
+	font-size: 1em;
+	font-weight: 550;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.error {
+	color: red;
+	font-family: Helvetica, "Times New Roman", "Avenir Next",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 1em;
+	font-weight: 400;
+	text-align: center;
+	margin-top: -15px;
+	margin-bottom: 10px;
+}

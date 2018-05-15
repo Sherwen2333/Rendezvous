@@ -1,0 +1,135 @@
+@CHARSET "UTF-8";
+
+/* Body */
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	min-width: 1100px;
+}
+
+/* Title Bar*/
+.titleBar {
+	width: 100%;
+	height: 4em;
+	background-color: #e6e6e6;
+	background-image: url("Image/escheresque_ste.png");
+	background-size: auto;
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+
+/* Web site Header */
+.rendezvous {
+	color: white;
+	font-size: 2em;
+	font-weight: 500;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	margin-left: 5%;
+	margin-top: -1.6em;
+	margin-bottom: 0.2em;
+}
+
+/* Back BTN */
+.backBTN {
+	margin-top: -2.65em;
+	margin-right: 2em;
+	padding: 10px, 12px, 12px, 10px;
+	color: white;
+	text-align: right;
+	font-size: 1em;
+	font-weight: 500;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+.backBTN a:link, .backBTN a:visited {
+	border-radius: 10px;
+	background-color: #006c84;
+	color: white;
+	padding: 0.7em 15px;
+	text-align: center;
+	text-decoration: none;
+	cursor: auto;
+	opacity: 1.0;
+}
+
+.backBTN a:hover {
+	border-radius: 10px;
+	padding: 0.7em 15px;
+	text-align: center;
+	background-color: #6eb5c0;
+	color: white;
+}
+
+/* Dates Title */
+.photoTitle {
+	margin-top: 3em;
+	text-align: center;
+	color: #128277;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+.photoIcon {
+	font-size: 4em;
+}
+
+.photoText {
+	font-size: 1.5em;
+	font-weight: 500;
+}
+
+/* Upload Section */
+.uploadContainer {
+	margin-top: 2em;
+	margin-bottom: 2em;
+	margin-left: 25%;
+	margin-right: 25%;
+	padding: 1em;
+	border: 2px dotted grey;
+	border-radius: 20px;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	text-align: center;
+}
+
+.uploadTitle {
+	color: #2c7873;
+	padding-right: 3em;
+}
+
+.uploadBTN {
+	align: right;
+}
+
+.photoContainer {
+	width: 698px;
+	margin-left: 50%;
+	align: center;
+}
+
+.photoContainerInner {
+	margin-left: -349px;
+}
+
+.image {
+	width: 200px; 
+	max-width : 200px;
+	max-height: 200px;
+	padding-left: 1em;
+	padding-top: 1em;
+	max-width: 200px;
+}
+
+.image:hover {
+	opacity: 0.9;
+}
+
+.deleteIcon {
+	font-size: 1.5em;
+	color: red;
+	margin-left: -0.55em;
+}

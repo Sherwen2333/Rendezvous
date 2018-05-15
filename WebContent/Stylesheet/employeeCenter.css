@@ -1,0 +1,34 @@
+@CHARSET "UTF-8";
+
+.searchContainer {
+	font-weight: 500;
+	margin: 3em;
+	text-align: center;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+.textfield {
+	text-align: center;
+	width: 18em;
+}
+
+.createContainer {
+	margin: 3em;
+	text-align: center;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+.createContainer a {
+	padding: 1em 4.9em;
+	color: white;
+	text-decoration: none;
+	background-color: #337bae;
+	border-radius: 0.625em;
+	font-weight: 500;
+}
+
+.createContainer a:hover {
+	background-color: #005a93;
+}

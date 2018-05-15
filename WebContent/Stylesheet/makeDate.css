@@ -1,0 +1,50 @@
+@CHARSET "UTF-8";
+
+.md_icon {
+	text-align: center;
+	font-size: 4em;
+	font-weight: 500;
+	color: #d70026;
+}
+
+.md_text {
+	color: #d70026;
+	margin: 0.8em;
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: 500;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+.formContainer {
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+	margin-left: 50%;
+}
+
+.formContainer b {
+	font-weight: 500;
+}
+
+.formInnerContainer {
+	line-height: 2;
+	margin-left: -15em;
+	border: 0.125em solid lightgrey;
+	border-radius: 0.625em;
+	padding: 2em;
+	width: 26em;
+}
+
+.error {
+	color: #d70026;
+	text-align: center;
+	font-size: 0.8em;
+}
+
+.submitBTN {
+	text-align: center;
+	font-size: 1.2em;
+	font-family: "Avenir Next", Helvetica, "Times New Roman",
+		"Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
